@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="ReferralRacket|Promo">
+    <meta property="og:description" content="Another Fine Dorky Domain!">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://referralracket.com/">
+
+    <!-- Wide banner (big cards, feeds) -->
+    <meta property="og:image" content="https://referralracket.com/index/banner.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="referralracket banner for promo page">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="referralracket|Promo">
+    <meta name="twitter:description" content="Another Fine Dorky Domain!">
+    <meta name="twitter:image" content="https://referralracket.com/index/banner.png?v=2">
+    <meta name="twitter:image:alt" content="referralracket banner for index page">
+
+
+
+    <title>ReferralRacket|Promo</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://www.dorkydomains.com/shared/stylefile2.css">
+
+    <script src="https://www.dorkydomains.com/shared/scriptfile2.js"></script>
+
+    <script>
+        const AZURE = "https://ddkvp.azurewebsites.net/api/hub/referralracket/index";
+    </script>
+
+    <style>
+        :root {
+            --scrolling-banner-back-color: #000000;
+            --scrolling-banner-fore-color: white;
+            --button-fore-color: #000000;
+            --button-back-color: white;
+            --button-border-color: #000000;
+        }
+    </style>
+
+</head>
+
+
+<body onload="begin();">
+
+    <div class="container">
+        <img class="banner" src="index/banner.png" />
+        <div class="header">
+            <div id="ScrollingBanner"></div>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="button-container">
+            <div id="CustomButtons"></div>
+        </div>
+    </div>
+
+</body>
+
+</html>
